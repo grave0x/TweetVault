@@ -1,0 +1,12 @@
+# Ignore Line Endings
+* text=auto
+
+# Ignore Python bytecode
+__pycache__/
+*.py[cod]
+
+# Ignore virtual environments
+.venv/
+
+# Ignore compressed files
+*.zlib
