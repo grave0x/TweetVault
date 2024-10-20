@@ -1,16 +1,19 @@
 # TweetVault
 
-TweetVault is a Python script that scrapes tweets from a user's timeline and saves them in a highly compressed JSON format. 
+TweetVault is a Python script that scrapes tweets from a list of users' timelines and saves them in a highly compressed JSON format and Markdown. 
 
 ## Features
 - Scrapes tweets using web scraping
 - Compresses JSON data with a custom algorithm
-- Saves tweets to a `.json.zlib` file
+- Saves tweets to a `.json.zlib` file and Markdown format
+- Downloads media at highest quality
+- Supports multiple users
 
 ## Requirements
 - Python 3.x
 - requests
 - BeautifulSoup4
+- markdown2
 
 ## Installation
 1. Clone the repository:
@@ -28,7 +31,7 @@ TweetVault is a Python script that scrapes tweets from a user's timeline and sav
     ```
     python tweetvault.py
     ```
-2. Enter the Twitter username when prompted.
+2. Enter the Twitter usernames separated by commas when prompted.
 
 ## Notes
 - Web scraping may be subject to rate limits or blocks by Twitter. Please ensure you comply with Twitter's terms of service.
